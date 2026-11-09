@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "california-traffic-school-guidance",
+  "version": "1.0.0",
+  "description": "Public California traffic-school guidance with official sources and an optional read-only CLE MCP connection.",
+  "author": {
+    "name": "Oruk",
+    "url": "https://oruk.ai"
+  },
+  "homepage": "https://traffic.californialicensingeducation.com/developers/",
+  "repository": "https://github.com/Nathan-Roll1/california-traffic-school-skill",
+  "keywords": [
+    "california",
+    "traffic-school",
+    "court-information",
+    "mcp"
+  ]
+}
