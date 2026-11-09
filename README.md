@@ -30,6 +30,24 @@ The hosted server exposes seven read-only tools for public school information, g
 
 The manifests have been checked against the published version 1.0.0 JSON schemas. A native client import has not been tested, and schema validation does not establish compatibility with every client or acceptance by any directory. If your client does not support Agent Plugins, use the skill-only instructions above and its own MCP setup instructions instead. These manifests are not a replacement for each client's native MCP configuration format.
 
+## Install as a Gemini CLI extension
+
+The root `gemini-extension.json` supplies a native [Gemini CLI extension](https://geminicli.com/docs/extensions/reference/). Review that manifest and the bundled skill before installing:
+
+```sh
+gemini extensions install https://github.com/Nathan-Roll1/california-traffic-school-skill
+```
+
+Review the CLI's confirmation prompt, then restart the CLI session. This variant includes the skill and registers `cle-traffic` as a Streamable HTTP connection to CLE's public service. Gemini CLI loads extension MCP servers at startup, so installing it permits remote requests to that endpoint. No API key, school account or credential is needed. Keep personal and case details out of tool inputs.
+
+The extension adds no local executable, shell command, hook, policy override or automatic approval. Its only connection is the same public, read-only service described above. Gemini CLI enables extensions globally by default; to disable this one:
+
+```sh
+gemini extensions disable california-traffic-school-guidance
+```
+
+The manifest and transport configuration have been checked against Google's published documentation and source. A native Gemini CLI installation has not been tested. The [extension gallery](https://geminicli.com/docs/extensions/releasing/) discovers tagged public repositories subject to its own validation; this repository does not claim a verified gallery listing or Google endorsement.
+
 ## Optional MCP connection
 
 The public MCP endpoint and client-specific setup are documented at [CLE's developer page](https://traffic.californialicensingeducation.com/developers/). Installing only the skill does not configure MCP. Adding that connection is a separate user-controlled setup step, not something the skill performs. A connector is not required for the public-browser fallback.
