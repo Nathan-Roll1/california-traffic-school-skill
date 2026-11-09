@@ -1,0 +1,10 @@
+{
+  "name": "california-traffic-school-guidance",
+  "version": "1.0.0",
+  "description": "Public California traffic-school guidance, official court links, and a read-only CLE MCP connection.",
+  "mcpServers": {
+    "cle-traffic": {
+      "httpUrl": "https://traffic.californialicensingeducation.com/mcp"
+    }
+  }
+}
