@@ -1,6 +1,6 @@
-# California traffic-school guidance skill
+# California Licensing Education: traffic-school guidance
 
-A small, public-information skill for assistants answering general California traffic-school questions. It uses an existing CLE MCP connection when available and public websites otherwise. It respects the user's school choice and links to official sources.
+Public California traffic-school guidance from [California Licensing Education (CLE)](https://traffic.californialicensingeducation.com/operator/), packaged by [Oruk](https://oruk.ai). It uses the school's read-only MCP service when available and public websites otherwise, respects the user's school choice and links to official sources.
 
 ## Install the skill
 

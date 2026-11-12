@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "california-traffic-school-guidance",
   "version": "1.0.0",
-  "description": "Public California traffic-school guidance with official sources and an optional read-only CLE MCP connection.",
+  "description": "Public traffic-school guidance from California Licensing Education (CLE), with official sources and an optional read-only MCP connection.",
   "author": {
     "name": "Oruk",
     "url": "https://oruk.ai"
