@@ -2,6 +2,8 @@
 
 Public California traffic-school guidance from [California Licensing Education (CLE)](https://traffic.californialicensingeducation.com/operator/), packaged by [Oruk](https://oruk.ai). It uses the school's read-only MCP service when available and public websites otherwise, respects the user's school choice and links to official sources.
 
+For an optional manual demo, [read public guidance with curl](examples/read-public-guidance.md): discover the tools, search for a topic, then inspect its answer and sources. These requests contact CLE's public service; they do not install the skill or configure an agent. The skill itself remains script-free.
+
 ## Install the skill
 
 For agents supported by the [Skills CLI](https://github.com/vercel-labs/skills#install-a-skill), review the skill first, then use:
