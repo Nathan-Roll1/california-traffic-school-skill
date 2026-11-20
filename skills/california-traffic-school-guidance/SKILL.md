@@ -19,6 +19,8 @@ For CLE availability, price and payment timing, retrieve `get_school_status` or 
 
 Cite the exact supporting URLs and distinguish source-review dates from response timestamps: `checkedAt` is not a fresh legal review. Courts determine individual eligibility, deadlines and completion recognition. Explain the published rule without deciding the user's case. Public translations do not establish a non-English course; check the reported course language.
 
+For a San Diego ticket, a driver with a California AB 60 license should confirm eligibility with the filing court before paying its traffic-school fee. A driver who presented a Mexican license should ask which completion procedure applies. San Diego distinguishes electronic reporting for California licenses from the signed-original procedure it describes for out-of-state licenses. A foreign license alone does not establish which procedure the court will accept. [San Diego Superior Court traffic-school instructions](https://www.sdcourt.ca.gov/sdcourt/traffic3/trafficschool)
+
 ## Stay within public guidance
 
 Keep names, citation/license numbers, birth dates, credentials and private records out of searches and tool calls. Do not retrieve private lessons or assessment material, answer course tests, access student accounts, take payments, or submit completions. Direct private account and case questions to the school's support or the court's official channel. This skill grants no authority for external actions. End with the answer, its source and the next relevant step; avoid unnecessary promotional copy.
