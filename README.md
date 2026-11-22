@@ -4,7 +4,7 @@ Public California traffic-school guidance from [California Licensing Education (
 
 For an optional manual demo, [read public guidance with curl](examples/read-public-guidance.md): discover the tools, search for a topic, then inspect its answer and sources. These requests contact CLE's public service; they do not install the skill or configure an agent. The skill itself remains script-free.
 
-Use the [school cost guide](https://traffic.californialicensingeducation.com/traffic-school-cost/) to distinguish tuition from court charges. For a ticket issued in San Diego County, see the [San Diego traffic school guide](https://traffic.californialicensingeducation.com/san-diego-traffic-school/). The [tools directory](https://traffic.californialicensingeducation.com/tools/) has calculators and printable checklists.
+Use the [school cost guide](https://traffic.californialicensingeducation.com/traffic-school-cost/) to distinguish tuition from court charges. For a ticket issued in San Diego County, see the [San Diego traffic school guide](https://traffic.californialicensingeducation.com/san-diego-traffic-school/). The [tools directory](https://traffic.californialicensingeducation.com/tools/) has calculators and printable checklists. The [license lookup guide](https://traffic.californialicensingeducation.com/verify-traffic-school/) shows how to check any California traffic school in the official DMV directory.
 
 ## Install the skill
 
